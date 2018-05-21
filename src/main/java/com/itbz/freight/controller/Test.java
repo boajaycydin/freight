@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 @RestController
+//注解
 public class Test {
     @RequestMapping("/test")
     public ModelAndView test(){
